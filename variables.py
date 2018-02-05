@@ -9,7 +9,7 @@ from .internal import typemap, sanitize_precision, sanitize_value, \
         sanitize_shape, sanitize_dtype_cntk
 
 class Record(dict):
-    '''
+    ''' 
     Easy construction of a record (=immutable singleton class) from keyword arguments.
     e.g. r = Record(x = 13, y = 42) ; x = r.x
 

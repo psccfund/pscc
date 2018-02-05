@@ -5,7 +5,7 @@ from .cntk_py import default_param_init_scale as DefaultParamInitScale,\
 
 
 def uniform(scale, seed=None):
-    '''
+    ''' 
     Uniform initializer
 
     Args:

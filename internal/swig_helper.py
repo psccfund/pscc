@@ -8,7 +8,7 @@ def map_if_possible(obj):
     global _typemap
     if _typemap is None:
         # We can do this only if cntk_py and the cntk classes are already
-        # known, which is the case, when map_if_possible is called.
+        # known, which is the case, when map_if_possible is called. 
         from cntk import Value, NDArrayView
         from cntk.axis import Axis
         from cntk.device import DeviceDescriptor

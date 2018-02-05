@@ -2,7 +2,7 @@ from .. import cntk_py
 
 
 def start_profiler(dir='profiler', sync_gpu=True, reserve_mem=cntk_py.default_profiler_buffer_size):
-    '''
+    ''' 
     Start profiler to prepare performance statistics gathering. Note that
     the profiler is not enabled after start
     (:cntkwiki:`example <BrainScript-and-Python-Performance-Profiler#for-python>`).

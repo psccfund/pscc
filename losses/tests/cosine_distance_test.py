@@ -12,7 +12,7 @@ def test_cosine_distance():
   tgt_br = C.sequence.broadcast_as(tgt, src)
   cos_seq = C.cosine_distance(src, tgt_br)
   assert len(cos_seq.dynamic_axes)==2
-  assert cos_seq.dynamic_axes[1].name=="Seq"
+  assert cos_seq.dynamic_axes[1].name=="Seq" 
   val = cos_seq.eval({src:[a], tgt:[b]})
   expected = [[ 1., 0.914659,  0.878459,  0.86155,   0.851852]] 
   assert np.allclose(val, expected)

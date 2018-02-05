@@ -2,7 +2,7 @@ from . import cntk_py
 from cntk.internal.swig_helper import typemap
 
 class Axis(cntk_py.Axis):
-    '''
+    ''' 
     An axis object describes the axis of a variable and is used for specifying
     the axes parameters of certain functions such as reductions.  Besides the
     static axes corresponding to each of the axes of the variable's shape,

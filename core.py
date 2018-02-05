@@ -19,7 +19,7 @@ def _is_c_contiguous(data):
 
 
 class NDArrayView(cntk_py.NDArrayView):
-    '''
+    ''' 
     Creates an empty dense internal data representation of a
     :class:`~cntk.core.Value` object.
     To create an NDArrayView from a NumPy array, use :meth:`from_dense`.

@@ -15,7 +15,7 @@ def find_func_param(func, name=None, shape=None, allow_not_found=False):
             raise Exception('param ({} {}) not found'.format(name, shape))
     if len(found) > 1:
         raise Exception('more than one found')
-    return found[0]
+    return found[0] 
     
 def parameter_setter(p, raw_value, attr=None):
     if p.shape != raw_value.shape:
